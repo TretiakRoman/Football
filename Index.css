@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e77110;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Хедер */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-block {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.green {
+    color: #e77110;
+}
+
+.title small {
+    font-style: italic;
+    color: #555;
+}
+
+/* Контакти */
+.contact {
+    text-align: right;
+}
+
+.phone {
+    font-size: 18px;
+    color: #e77110;
+    font-weight: bold;
+}
+
+.working-time {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Основне зображення */
+.main-image {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Контент */
+.content {
+    margin-right: 290px;
+}
+
+/* Бокова панель */
+.sidebar {
+    float: right;
+    width: 260px;
+}
+
+.sidebar-title {
+    background-color: #e77110;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: underline;
+    color: #e77110;
+    font-size: 14px;
+}
+
+/* Заголовки */
+h2 {
+    color: #e77110;
+    margin-top: 0;
+}
+
+/* Футер */
+.footer {
+    clear: both;
+    background-color: #e77110;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    margin-top: 40px;
+    font-size: 14px;
+}
